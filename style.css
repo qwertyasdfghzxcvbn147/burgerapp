@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Rubik";
+}
+.icon{
+    width: 80px;
+    height: 80px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 28px;
+}
+.HL{
+    display: flex;
+    align-items: center;
+    gap: 76px;
+    padding-top: 10px;
+}
+ul{
+    list-style: none;
+}
+.HL ul{
+    display: flex;
+    gap: 60px;
+}
+.active{
+    font-weight: 500;
+    border-bottom: purple 2px solid;
+    padding-bottom: 10px;
+}
+.HR{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.HR button{
+    border: none;
+    padding: 8px 24px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 228);
+    color: red;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+li{
+    cursor: pointer;
+}
+.conteiner{
+    max-width: 1400px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.CL h1{
+    font-size: 72px;
+    font-weight: 400;
+}
+.CL p{
+    font-size: 20px;
+    color: grey;
+}
+.CL{
+    width: 482px;
+}
