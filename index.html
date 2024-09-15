@@ -11,8 +11,14 @@
         <nav class="HL">
             <img class="icon" src="images/food-fast-food-burger-hamburger-junk-food-svgrepo-com.svg" alt="">
             <ul>
-                <li id="D" class="active">Discover</li>
-                <li id="B">Your Burger</li>
+                <div onclick="lineD()">
+                    <li class="active" id="D">Discover</li>
+                    <div id="lineD" class="line"></div>
+                </div>
+                <div onclick="lineB()">
+                    <li id="B">Your Burger</li>
+                    <div id="lineB"></div>
+                </div>
             </ul>
         </nav>
 
@@ -22,12 +28,20 @@
         </div>
     </header>
     <main>
-        <section class="hero conteiner">
-            <div class="CL">
-                <h1>Make<br>Your Burger</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae culpa tempore ratione repellendus nostrum?</p>
-            </div>
-        </section>
+        <div class="burger" id="burger">
+            <section>
+                <div class="test"></div>
+            </section>
+        </div>
+        <div class="white"></div>
+        <div class="index" id="index">
+            <section class="hero conteiner">
+                <div class="CL">
+                    <h1>Make<br>Your Burger</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae culpa tempore ratione repellendus nostrum?</p>
+                </div>
+            </section>
+        </div>
     </main>
     <script src="./script.js"></script>
 </body>
