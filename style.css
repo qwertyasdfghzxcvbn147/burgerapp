@@ -39,10 +39,10 @@ ul{
 }
 .active{
     padding-bottom: 10px;
-    animation: 0.5s startactive ease-in-out forwards;
+    animation: 0.3s startactive ease-in-out forwards;
 }
 .unactive{
-    animation: 0.5s endactive ease-in-out forwards;
+    animation: 0.3s endactive ease-in-out forwards;
 }
 @keyframes endactive{
     0%{
@@ -65,10 +65,10 @@ ul{
     margin: auto;
     width: 0%;
     border-bottom: purple 2px solid;
-    animation:  0.5s startline ease-in-out forwards;
+    animation:  0.3s startline ease-in-out forwards;
 }
 .unline{
-    animation: 0.5s endline ease-in-out forwards;
+    animation: 0.3s endline ease-in-out forwards;
 }
 @keyframes endline{
     0%{
@@ -120,7 +120,7 @@ li{
 .CL{
     width: 482px;
 }
-.burger{
+.burgerB{
     position: absolute;
     z-index: 1;
 }
