@@ -11,7 +11,7 @@ function line(event) {
     if(event === B){
         if (st === true && unan === true) {
             st = false;
-            indexB.style.zIndex = -1;
+            indexB.style.zIndex = 1;
             burgerB.style.zIndex = 3;
             linerB.classList.add("line");
             textB.classList.add("active");
