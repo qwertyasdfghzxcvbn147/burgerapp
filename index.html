@@ -7,27 +7,88 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <nav class="HL">
-            <img class="icon" src="images/food-fast-food-burger-hamburger-junk-food-svgrepo-com.svg" alt="">
-            <ul>
-                <li id="D" class="active">Discover</li>
-                <li id="B">Your Burger</li>
-            </ul>
-        </nav>
-
-        <div class="HR">
-            <button>Call Me Back</button>
-            <p>+380 63 374 53 08</p>
-        </div>
-    </header>
-    <main>
-        <section class="hero conteiner">
-            <div class="CL">
-                <h1>Make<br>Your Burger</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae culpa tempore ratione repellendus nostrum?</p>
+    <div class="white"></div>
+    <div class="HF">
+        <header>
+            <nav class="HL">
+                <img class="icon" src="images/food-fast-food-burger-hamburger-junk-food-svgrepo-com.svg" alt="">
+                <ul>
+                    <div onclick="line(D)">
+                        <li class="active" id="D">Discover</li>
+                        <div id="lineD" class="line"></div>
+                    </div>
+                    <div onclick="line(B)">
+                        <li id="B">Your Burger</li>
+                        <div id="lineB"></div>
+                    </div>
+                </ul>
+            </nav>
+            
+            <div class="HR">
+                <button>Call Me Back</button>
+                <p>+380 63 374 53 08</p>
             </div>
-        </section>
+        </header>
+    </div>
+    <main>
+        <div class="burgerB" id="burgerB">
+            <section class="burger container section">
+                <div class="burger-top">
+                    <div class="burger-left">
+                        <h1>Make <br> Your Burger</h1>
+                    </div>
+                    <div class="burger-center">
+                        <img width="630" height="619" src="images/55fa47e4-0322-4df0-8204-e935e5e72a5c.png" alt="Burger">
+                        <span class="burger-price">$6.19</span>
+                    </div>
+                    <div class="burger-right">
+                        <h4>Summary</h4>
+                        <div class="burger-properties">
+                            <div class="burger-property">
+                                <img src="./images/Property 1=calories.svg" alt="Calories">
+                                249 kcal
+                            </div>
+                            <div class="burger-property">
+                                <img src="./images/Property 1=time.svg" alt="Calories">
+                                4 min
+                            </div>
+                            <div class="burger-property">
+                                <img src="./images/Property 1=weight.svg" alt="Calories">
+                                800g
+                            </div>
+                        </div>
+                        <span class="burger-red">+ Gift</span>
+                        <p class="burger-text">Tomato Ketchup <span class="burger-gray">0.2 oz</span></p>
+                        <img class="ketchup" src="images/Ketchup.png" alt="">
+                    </div>
+                </div>
+                <div class="burger-order">
+                    <button class="order">Order</button>
+                </div>
+                <div class="burger-bottom">
+                    <div class="ingredient">
+                        <div class="ingredient-image">
+                            <img src="images/Cutlet.svg" alt="">
+                        </div>
+                        <h5>Cutlet</h5>
+                        <div class="controls">
+                            <button>-</button>
+                            <button>6</button>
+                            <button>+</button>
+                        </div>
+                    </div>
+                </div>
+            </section>   
+        </div>
+        <div class="index" id="index">
+            <section class="hero conteiner">
+                <div class="CL">
+                    <h1>Make<br>Your Burger</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae culpa tempore ratione repellendus nostrum?</p>
+                </div>
+                <img src="images/cd1541a4-75df-4df6-878e-0ae02210a63c.png" alt="">
+            </section>     
+        </div>
     </main>
     <script src="./script.js"></script>
 </body>
